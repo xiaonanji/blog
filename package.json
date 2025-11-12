@@ -6,8 +6,7 @@
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
-    "debug": "DEBUG=Eleventy* eleventy",
-    "postinstall": "chmod +x node_modules/.bin/eleventy"
+    "debug": "DEBUG=Eleventy* eleventy"
   },
   "keywords": ["eleventy", "blog", "static-site"],
   "author": "",
