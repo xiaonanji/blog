@@ -1,0 +1,17 @@
+{
+  "name": "personal-blog",
+  "version": "1.0.0",
+  "description": "A personal blog built with Eleventy",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "debug": "DEBUG=Eleventy* eleventy"
+  },
+  "keywords": ["eleventy", "blog", "static-site"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
